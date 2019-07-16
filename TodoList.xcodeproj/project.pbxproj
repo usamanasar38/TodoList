@@ -25,6 +25,15 @@
 		F8014BA922DDCB140066D493 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8014BA822DDCB140066D493 /* User.swift */; };
 		F8014BAA22DDCB140066D493 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8014BA822DDCB140066D493 /* User.swift */; };
 		F8014BAB22DDCB140066D493 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8014BA822DDCB140066D493 /* User.swift */; };
+		F8014BAE22DDCCEE0066D493 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8014BAD22DDCCEE0066D493 /* LoginViewController.swift */; };
+		F8014BAF22DDCCEE0066D493 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8014BAD22DDCCEE0066D493 /* LoginViewController.swift */; };
+		F8014BB022DDCCEE0066D493 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8014BAD22DDCCEE0066D493 /* LoginViewController.swift */; };
+		F8014BB222DDCD160066D493 /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8014BB122DDCD160066D493 /* ToDoListTableViewController.swift */; };
+		F8014BB322DDCD160066D493 /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8014BB122DDCD160066D493 /* ToDoListTableViewController.swift */; };
+		F8014BB422DDCD160066D493 /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8014BB122DDCD160066D493 /* ToDoListTableViewController.swift */; };
+		F8014BB622DDCD360066D493 /* OnlineUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8014BB522DDCD360066D493 /* OnlineUsersTableViewController.swift */; };
+		F8014BB722DDCD360066D493 /* OnlineUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8014BB522DDCD360066D493 /* OnlineUsersTableViewController.swift */; };
+		F8014BB822DDCD360066D493 /* OnlineUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8014BB522DDCD360066D493 /* OnlineUsersTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +78,9 @@
 		F8014B9F22DDCA950066D493 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F8014BA422DDCADF0066D493 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		F8014BA822DDCB140066D493 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F8014BAD22DDCCEE0066D493 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F8014BB122DDCD160066D493 /* ToDoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewController.swift; sourceTree = "<group>"; };
+		F8014BB522DDCD360066D493 /* OnlineUsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineUsersTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +159,7 @@
 		F8014B7022DDC5890066D493 /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
+				F8014BAC22DDCCD30066D493 /* Controllers */,
 				F8014BA322DDCAC60066D493 /* Models */,
 				F8014B7122DDC5890066D493 /* AppDelegate.swift */,
 				F8014B7522DDC5890066D493 /* Main.storyboard */,
@@ -183,6 +196,16 @@
 				F8014BA822DDCB140066D493 /* User.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F8014BAC22DDCCD30066D493 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8014BAD22DDCCEE0066D493 /* LoginViewController.swift */,
+				F8014BB122DDCD160066D493 /* ToDoListTableViewController.swift */,
+				F8014BB522DDCD360066D493 /* OnlineUsersTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -479,6 +502,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8014BA922DDCB140066D493 /* User.swift in Sources */,
+				F8014BB222DDCD160066D493 /* ToDoListTableViewController.swift in Sources */,
+				F8014BAE22DDCCEE0066D493 /* LoginViewController.swift in Sources */,
+				F8014BB622DDCD360066D493 /* OnlineUsersTableViewController.swift in Sources */,
 				F8014BA522DDCADF0066D493 /* ToDo.swift in Sources */,
 				F8014B7222DDC5890066D493 /* AppDelegate.swift in Sources */,
 			);
@@ -489,6 +515,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8014B8722DDC58B0066D493 /* TodoListTests.swift in Sources */,
+				F8014BB322DDCD160066D493 /* ToDoListTableViewController.swift in Sources */,
+				F8014BAF22DDCCEE0066D493 /* LoginViewController.swift in Sources */,
+				F8014BB722DDCD360066D493 /* OnlineUsersTableViewController.swift in Sources */,
 				F8014BA622DDCADF0066D493 /* ToDo.swift in Sources */,
 				F8014BAA22DDCB140066D493 /* User.swift in Sources */,
 			);
@@ -499,6 +528,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8014B9222DDC58B0066D493 /* TodoListUITests.swift in Sources */,
+				F8014BB422DDCD160066D493 /* ToDoListTableViewController.swift in Sources */,
+				F8014BB022DDCCEE0066D493 /* LoginViewController.swift in Sources */,
+				F8014BB822DDCD360066D493 /* OnlineUsersTableViewController.swift in Sources */,
 				F8014BA722DDCADF0066D493 /* ToDo.swift in Sources */,
 				F8014BAB22DDCB140066D493 /* User.swift in Sources */,
 			);
